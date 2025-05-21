@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
             </h1>
             <p className="text-lg text-green-700 mb-8 max-w-lg">
               A FastDog traz para você os melhores petiscos para o seu cão. Distribuidora
-              oficial de marcas premium como Luv e Alecrim, GoodLoving e Natuka.
+              oficial de marcas como Luv, Alecrim, GoodLoving e Natuka.
             </p>
             <button
               onClick={scrollToCatalogs}
