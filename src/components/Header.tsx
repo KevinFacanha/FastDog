@@ -23,7 +23,7 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center space-x-2">
-          <Dog className="h-8 w-8 text-green-600" />
+          <img src="/catalogs/fastdog-logo2.png" alt="FastDog Logo" className="h-10 w-auto sm:h-12 md:h-14" />
           <span className="text-2xl font-bold text-green-700">FastDog</span>
         </div>
         <nav>

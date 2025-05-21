@@ -8,7 +8,7 @@ const FooterSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Dog className="h-8 w-8 text-yellow-400" />
+              <img src="/catalogs/fastdog-logo2.png" alt="FastDog Logo" className="h-10 w-auto sm:h-12 md:h-14" />
               <span className="text-2xl font-bold">FastDog</span>
             </div>
             <p className="max-w-xs">
@@ -26,7 +26,7 @@ const FooterSection: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-yellow-400" />
-                <span>contato@fastdog.com.br</span>
+                <span>fastdognaturalpet@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 mt-1 text-yellow-400" />
